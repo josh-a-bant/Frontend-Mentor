@@ -45,6 +45,11 @@ img {
   font-weight: 500;
 }
 
+h1:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
 .content {
   margin-top: 10px;
 }
@@ -55,6 +60,10 @@ button {
   font-weight: 800;
   border: none;
   border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 .card-footer {
